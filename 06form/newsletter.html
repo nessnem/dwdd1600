@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="This is a fan-made site to help new sports fans learn about one of Germany's biggest and most historical football clubs.">
+    <meta name="author" content="Robbie Menssen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hamburger Sport Verein</title>
+</head>
+
+<body>
+    <header>
+        <span>Hamburger Sport Verein</span>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Welcome</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="newsletter.html">Newsletter</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Newsletter</h1>
+
+        <p><strong><em>Don't want to miss any HSV news? Sign up for our newsletter!</em></strong></p>
+
+        <form action="thanks.html" method="get" class="myform">
+
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First Name <input type="text" name="fname" required></label>
+                <label>Last Name <input type="text" name="lname" required></label>
+                <label>Email Address <input type="email" name="email" required placeholder="example@domain.com"></label>
+                <label>Cell Phone <input type="tel" name="phone" required placeholder="951-555-1234"></label>
+
+                <label>Select Your Age Range
+                    <select name="age">
+                        <option value="none">Please Select</option>
+                        <option value="under 18">under 18</option>
+                        <option value="18-24">18 - 24</option>
+                        <option value="24-30">24 - 30</option>
+                        <option value="30+">30 +</option>
+                    </select>
+                </label>
+        
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Frequency</legend>
+                <label><input type="radio" name="method" value="monthly">Monthly</label>
+                <label><input type="radio" name="method" value="bi-weekly">Bi-weekly</label>
+                <label><input type="radio" name="method" value="weekly">Weekly</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Choose Content Options</legend>
+                <label><input type="checkbox" name="transfer" value="yes"> Transfer News</label>
+                <label><input type="checkbox" name="injury" value="yes"> Player Injury Updates</label>
+                <label><input type="checkbox" name="results" value="yes"> Match Results</label>
+                <label><input type="checkbox" name="other" value="yes"> Other News</label>
+ </fieldset>
+
+
+                <label>Comments
+                    <textarea name="comments"></textarea>
+                </label>
+
+
+
+
+
+
+
+                <input type="submit" value="Sign up for newsletter">
+        </form>
+
+
+    </main>
+    <footer>
+        &copy; 2026 &bull; Robbie Menssen &bull; Web Essentials
+
+    </footer>
+</body>
+
+</html>
